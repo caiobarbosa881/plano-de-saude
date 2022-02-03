@@ -9,7 +9,8 @@ body{
     height: 80px;
     display: block;
     background-color: rgb(255, 255, 255);
-    
+    position: fixed;
+    float: top;
 }
 .inner_header{
     width: 100%;
@@ -48,7 +49,6 @@ body{
     height: 100%;
     color: rgb(0, 0, 0);
     font-size: 17px;
-    text-transform: uppercase;
 }
 .navigation a:hover{
     color:seagreen;
@@ -63,6 +63,44 @@ body{
     background: rgb(0, 0, 0);
     margin: 8px;
 }
+.first-div{
+    z-index: -2;
+    height: 1200px;
+    width: 100%;
+    background-color:saddlebrown;
+    background-image: url(../img/home_container_img1.jpg);
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+}
+.first-form{
+   left: 1000px;
+   top: 200px;
+   position: relative;
+   text-align: center;
+   height: 500px;
+   width: 480px;
+   background-color:rgb(255, 255, 255);
+   padding: 40px;
+   align-items: center;
+   text-align: center;
+}
+.first-form-title{
+    position: relative;
+    font-size: 20px;
+}
+#submitbutton{
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
+}
+input{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+}
+
 @media (max-width: 1840px){
     .navigation a{
         padding: 0px 20px;
