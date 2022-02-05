@@ -1,4 +1,5 @@
 window.addEventListener("load", function () {
-    const loader = document.querySelector(".loader-background");
-    loader.className += " hidden";
+    var loader = document.getElementById("loader-background");
+    loader.style.visibility = "hidden";
+    console.log("todos os carregamentos foram concluído");
 });
