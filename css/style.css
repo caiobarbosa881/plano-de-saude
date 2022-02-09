@@ -140,6 +140,10 @@ input{
     font-size: 15px;
 }
 .slider-title{
+    height: 80px;
+    margin-top: -21px;
+    text-align: center;
+    padding-top: 30px;
     width: 100%;
     background-color: aqua;
 }
