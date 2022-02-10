@@ -7,9 +7,8 @@ body{
 .header{
     opacity: 1;
     width: 100%;
-    height: 80px;
+    height: 120px;
     display: block;
-    background-color: rgb(255, 255, 255);
     position: fixed;
     float: top;
     z-index: 1;
@@ -18,10 +17,16 @@ body{
     width: 100%;
     height: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto auto;
+    background-color: rgb(255, 255, 255);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.invisible-gap{
+    width: 100%;
+    height: 120px;
+}
 .logo_container{
+    margin-top: 20px;
     background-image: url("../img/sorianoplano.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -30,10 +35,13 @@ body{
     width: 200px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    transform: translate(80%);
+    margin-left: 200px;
+    height: 120px;
+    width: 150px;
 }
 .navigation{
-    margin-right: 480px;
+    margin-top: 27px;
+    margin-right: 269px;
     float: right;
     height: 100%;
     font-family: Helvetica, sans-serif;
@@ -65,10 +73,6 @@ body{
     background: rgb(0, 0, 0);
     margin: 8px;
 }
-.invisible-gap{
-    width: 100%;
-    height: 80px;
-}
 .wrapper{
     top: 50px;
     display: grid;
@@ -88,16 +92,28 @@ body{
     url('../img/home_container_img1.jpg');
 }
 .box1-content{
-    border-radius: 15px;
-    text-align: center;
+    text-align: left;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 200px;
     float: left;
-    height: 600px;
-    width: 800px;
-    background-color: #9fabb8;
+    height: 573px;
+    width: 500px;
     opacity: 0.9;
+    padding: 0;
 }
+.box1-content h1{
+    margin-top: 0;
+    font-size: 57px;
+}
+.box1-content h2{
+
+    font-size: 16px;
+}
+.box1-content h3{   
+    margin-top: 138px;
+    font-size: 80px;
+}
+
 .first-form{
     margin-top: 100px;
     margin-bottom: auto;
@@ -220,7 +236,7 @@ footer .copyright{
         padding: 0px 20px;
     }
 }
-@media (max-width: 1400px){
+@media (max-width: 1640px){
     body{
         overflow-x: hidden;
     }
@@ -239,6 +255,7 @@ footer .copyright{
     }
     .logo_container{
         transform: none;
+        margin-left: 0;
     }
     .navigation{
         z-index: 1;
