@@ -7,6 +7,14 @@ $(document).ready(function(){
       autoplayspeed: 7000,
       infinite:true,
       prevArrow: null,
-      nextArrow: null
+      nextArrow: null,
+      responsive: [{
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 1,
+          SlidesToScroll: 1,
+        }
+      }]
+      
     });
 });

@@ -275,9 +275,54 @@ footer .copyright{
     .navigation ul{
         margin-right: 20px;
     }
+    .wrapper{
+        top: 50px;
+        display: grid;
+        height: 1600px;
+        width: 100%;   
+       
+    }
+    .box1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        background-color: aquamarine;
+        background-image: none;
+    }
+    .box1-content{
+        border-radius: 15px;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        height: 600px;
+        width: 400px;
+        background-color: #9fabb8;
+        opacity: 0.9;
+
+        float: none;
+        margin-left: 0;
+    }
     .first-form{
-        margin: auto;
-     }
+        top: 800px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: none;
+        margin-bottom: none;
+        float: none;
+        margin-right: none;
+        position: absolute;   
+       text-align: center;
+       background-color:rgb(255, 255, 255);
+       padding: 35px;
+       align-items: center;
+       text-align: center;
+       font-family: Helvetica, sans-serif;
+       border-radius: 5px;
+       height: 500px;
+       width: 350px;
+    }
 }
 @keyframes navLinkFade {
     from{
