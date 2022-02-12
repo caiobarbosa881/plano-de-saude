@@ -161,10 +161,10 @@ input{
     text-align: center;
     padding-top: 30px;
     width: 100%;
-    background-color: #4b4c4d;
+    background-color: #37b8d8;
 }
 .slider{
-    background-color: #4b4c4d;
+    background-color: #37b8d8;
     height: 110px;
     margin-top: -10px;
     margin-left: -45px;    
@@ -178,7 +178,7 @@ input{
 }
 footer{
     padding: 90px 0;
-    background-color: rgb(30, 80, 126);
+    background-color: rgb(255, 255, 255);
     left: 0px;
     right: 0px;
     width: 100%;
@@ -189,6 +189,16 @@ footer .social{
     text-align: center;
     padding-bottom: 25px;
     color: #4b4c4d;
+}
+.facebook-icon{
+    background-image: url("../img/facebook-icon.png");
+    background-repeat: none;
+    background-size:cover;
+}
+.instagram-icon{
+    background-image: url("../img/instagram-icon.png");
+    background-repeat: none;
+    background-size:cover;
 }
 footer .social a{
    font-size: 24px;
