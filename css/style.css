@@ -17,14 +17,12 @@ body{
     height: 50px;
     width: 50px;
 
-    
-    -webkit-transition: opacity 2s ease-in;
-     -moz-transition: opacity 2s ease-in;
-      -ms-transition: opacity 2s ease-in;
-       -o-transition: opacity 2s ease-in;
-        transition: opacity 2s ease-in;
+    animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
   }
-  @keyframes fadein {
+  @keyframes fadeInOpacity {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
@@ -62,7 +60,7 @@ body{
     width: 200px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-left: 200px;
+    margin-left: 240px;
     height: 120px;
     width: 150px;
 }
@@ -103,11 +101,12 @@ body{
 .wrapper{
     top: 50px;
     display: grid;
-    height: 1000px;
+    height: 750px;
     width: 100%;
     background-size: cover;
     background-image: linear-gradient(to right, rgb(243, 243, 243) 0%, transparent 100%),
     url('../img/home_container_img1.jpg');
+    margin-bottom: -40px;
 }
 .box1{
     grid-column-start: 1;
@@ -121,7 +120,7 @@ body{
 .box1-content{
     text-align: left;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 240px;
     float: left;
     height: 573px;
     width: 500px;
@@ -133,14 +132,12 @@ body{
     font-size: 57px;
 }
 .box1-content h2{
-
     font-size: 16px;
 }
 .box1-content h3{   
     margin-top: 138px;
     font-size: 80px;
 }
-
 .first-form{
     margin-top: 100px;
     margin-bottom: auto;
@@ -203,6 +200,117 @@ input{
     margin-left: 60px;
     margin-right: 45px;
 }
+
+.nossos_servicos{
+    height: 50px;
+    background-color: rgb(151, 151, 151);
+    
+}
+.nossos_servicos h2{
+   margin: 40px 0 0 240px;
+   font-size: 35px;
+    font-weight: 400;
+    line-height: 48px;
+   font-family: 'LemonMilk';
+   color: white;
+}
+.nossos_servicos span{
+   margin: 0 0 0 240px;
+   font-size: 35px;
+   font-family: 'LemonMilk';
+   color: white;
+ }
+.box-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    height: 600px;
+}
+.single-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 160px;
+    height: 150px;
+    border-radius: 35px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: .3s;
+    align-items: center;
+}
+.img-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 6px solid #ddd;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    float: left;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.single-box:nth-child(1) .img-area{
+    background-image: url("../img/back-to-top-icon.jpg")
+}
+.single-box:nth-child(2) .img-area{
+    background-image: url("../img/back-to-top-icon.jpg")
+}
+.single-box:nth-child(3) .img-area{
+    background-image: url("../img/back-to-top-icon.jpg")
+}
+.single-box:nth-child(4) .img-area{
+    background-image: url("../img/back-to-top-icon.jpg")
+}
+.single-box:nth-child(5) .img-area{
+    background-image: url("../img/back-to-top-icon.jpg")
+}
+.header-text{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.img-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+.img-text p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.single-box:hover{
+    background-color: #5061fd;
+    color: #fff;
+}
+.box-title{
+    position: relative;
+}
+.services-showing{
+    margin: -21px 0 0 0;
+    height: 1000px;
+    width: 100%;
+    background-color: #9598b3;
+}
+.services-main-content{
+    
+    margin-left: 250px;
+    height: 800px;
+    width: 700px;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-image: url("../img/doctor.png");
+    background-size: cover;
+}
+
+
 footer{
     padding: 90px 0;
     background-color: rgb(255, 255, 255);
