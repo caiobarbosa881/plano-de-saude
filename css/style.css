@@ -44,7 +44,6 @@ body{
     display: block;
     margin: 0 auto auto;
     background-color: rgb(255, 255, 255);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .invisible-gap{
     width: 100%;
@@ -118,48 +117,35 @@ body{
     url('../img/home_container_img1.jpg');
 }
 .box1-content{
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-style: solid;
-    border-left-width: 30px;
-    border-left-color: rgb(219, 69, 69);
-    border-bottom-color: lightcoral;
-    border-bottom-width: 30px;
+    border-bottom-right-radius: 150px; 
     border-top-style: none;
     border-right-style: none;
     text-align: left;
-    margin-top: 114px;
-    margin-left: 225px;
     float: left;
-    height: 546px;
-    width: 750px;
+    height: 679px;
+    width: 950px;
     opacity: 1;
     padding: 0;
     background-color: #ffffff;
 }
 .box-img{
     background-image: url("../img/health-banner.jpg");
-    height: 400px;
-    width: 470px;
     background-size: cover;
-    float: right;
+    height: 500px;
+    width: 570px;
     border-radius: 20%;
-    margin: 50 0 100 0;
-    display:inline-block;
 }
 .box1-content h1{
-    background-color: #4b4c4d;
     margin: 29px 0 0 20;
     font-size: 45px;
     padding: 0;
-    display:inline;
 }
 .box1-content h2{
     font-size: 45px;
-   
+
     padding: 0;
     background-color: #4b4c4d;
-   
+  
 }
 .box1-content h3{
     font-size: 10px;
@@ -175,7 +161,7 @@ body{
 
 }
 .first-form{
-    margin-top: 115px;
+    margin-top: 60px;
     margin-bottom: auto;
     float: right;
     margin-right: 300px;
@@ -187,8 +173,8 @@ body{
    text-align: center;
    font-family: Helvetica, sans-serif;
    border-radius: 5px;
-   height: 500px;
-   width: 350px;
+   height: 550px;
+   width: 450px;
 }
 .first-form h2{
     color: rgb(92, 92, 92);
